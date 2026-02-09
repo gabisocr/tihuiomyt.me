@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Тихий омут — концепт настольной карточной игры</title>
+
+<style>
+body{
+margin:0;
+font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;
+background:#f5f7fb;
+color:#111;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:24px;
+}
+
+h1{
+margin:0 0 10px;
+font-size:34px;
+}
+
+h2{
+margin:40px 0 14px;
+font-size:22px;
+}
+
+.subtitle{
+color:#555;
+max-width:850px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:14px;
+}
+
+.card{
+background:#fff;
+border-radius:14px;
+padding:16px;
+box-shadow:0 4px 16px rgba(0,0,0,.06);
+}
+
+.card strong{
+display:block;
+margin-bottom:6px;
+}
+
+ul{
+margin:6px 0 0;
+padding-left:18px;
+}
+
+.footer{
+margin:40px 0 20px;
+text-align:center;
+color:#777;
+font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Тихий омут</h1>
+<p class="subtitle">
+Настольная карточная стратегическая игра по мотивам произведения Н. В. Гоголя «Мёртвые души».
+Игроки проходят путь через три периода — Рай, Чистилище и Ад, сражаясь, улучшая героев и принимая решения.
+</p>
+
+<h2>Общая информация</h2>
+<div class="grid">
+<div class="card"><strong>Тип игры</strong>Настольная карточная игра</div>
+<div class="card"><strong>Жанр</strong>Стратегия</div>
+<div class="card"><strong>Количество игроков</strong>4</div>
+</div>
+
+<h2>Общая идея</h2>
+<div class="grid">
+<div class="card">
+<strong>Три периода</strong>
+<ul>
+<li>Рай</li>
+<li>Чистилище</li>
+<li>Ад</li>
+</ul>
+</div>
+
+<div class="card">
+<strong>Содержание периода</strong>
+<ul>
+<li>Последовательность боёв</li>
+<li>События</li>
+<li>Усиления</li>
+<li>Босс</li>
+</ul>
+</div>
+
+<div class="card">
+<strong>Цель игры</strong>
+Пройти все три периода, победить финального босса и выжить.
+</div>
+</div>
+
+<h2>Как проходит одна партия</h2>
+<div class="grid">
+
+<div class="card">
+<strong>Подготовка</strong>
+Каждый игрок выбирает героя, получает стартовую колоду и стартовую ману. Формируется путь из трёх периодов.
+</div>
+
+<div class="card">
+<strong>Прохождение</strong>
+Игроки проходят бои и события, получают ману, новые карты и улучшения, усиливая своих героев.
+</div>
+
+<div class="card">
+<strong>Карточные бои</strong>
+Игроки разыгрывают карты атаки, защиты и эффектов. Враги отвечают атаками и способностями.
+</div>
+
+<div class="card">
+<strong>События</strong>
+Сделки, испытания и моральные выборы, влияющие на дальнейший путь.
+</div>
+
+<div class="card">
+<strong>Боссы</strong>
+В конце каждого периода игроков ждёт уникальный босс со сложной механикой.
+</div>
+
+<div class="card">
+<strong>Финал</strong>
+Победа достигается после уничтожения финального босса, если выжил хотя бы один герой.
+</div>
+
+</div>
+
+<h2>Компоненты игры</h2>
+<div class="grid">
+
+<div class="card">
+<strong>Карты героев</strong>
+<ul>
+<li>Имя</li>
+<li>Здоровье</li>
+<li>Стартовая мана</li>
+<li>Уникальная способность</li>
+<li>Особое условие усиления</li>
+</ul>
+</div>
+
+<div class="card">
+<strong>Колоды игроков</strong>
+<ul>
+<li>2 карты атаки</li>
+<li>1 карта защиты</li>
+<li>1 уникальная карта героя</li>
+</ul>
+</div>
+
+<div class="card">
+<strong>Колода врагов</strong>
+<ul>
+<li>Рай — слабые призраки</li>
+<li>Чистилище — грешники</li>
+<li>Ад — демоны</li>
+</ul>
+</div>
+
+<div class="card">
+<strong>Колода событий</strong>
+Сделки и испытания
+</div>
+
+<div class="card">
+<strong>Колода улучшений</strong>
+Усиления, артефакты, постоянные бонусы
+</div>
+
+<div class="card">
+<strong>Жетоны</strong>
+Здоровье, мана, проклятия, усиления
+</div>
+
+</div>
+
+<h2>Ресурсы</h2>
+<div class="grid">
+
+<div class="card">
+<strong>Здоровье</strong>
+Показывает запас жизни героя. При падении до нуля игрок выбывает.
+</div>
+
+<div class="card">
+<strong>Мана</strong>
+Получается за победы, тратится на розыгрыш карт, улучшения и способности.
+</div>
+
+</div>
+
+<h2>Структура партии</h2>
+<div class="grid">
+
+<div class="card">
+<strong>Рай</strong>
+Низкая сложность, обучение механикам, простые враги
+</div>
+
+<div class="card">
+<strong>Чистилище</strong>
+Средняя сложность, моральные выборы, сложные события
+</div>
+
+<div class="card">
+<strong>Ад</strong>
+Максимальная сложность, сильные дебаффы, мощные боссы
+</div>
+
+</div>
+
+<h2>Герои и стили игры</h2>
+<div class="grid">
+
+<div class="card">
+<strong>Чичиков</strong>
+Контроль, обман, манипуляции маной, кража карт
+</div>
+
+<div class="card">
+<strong>Собакевич</strong>
+Танк, мощные удары, высокая защита
+</div>
+
+<div class="card">
+<strong>Плюшкин</strong>
+Истощение, кража ресурсов, ослабление врагов
+</div>
+
+<div class="card">
+<strong>Манилов</strong>
+Иллюзии, контроль, уклонения
+</div>
+
+</div>
+
+<h2>Победа и поражение</h2>
+<div class="grid">
+
+<div class="card">
+<strong>Победа</strong>
+Финальный босс повержен и жив хотя бы один герой
+</div>
+
+<div class="card">
+<strong>Поражение</strong>
+Все герои погибли
+</div>
+
+</div>
+
+<div class="footer"></div>
+
+</div>
+
+</body>
+</html>
